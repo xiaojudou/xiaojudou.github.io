@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>xiaojudou</title>
+ <link href="https://xiaojudou.github.io/atom.xml" rel="self"/>
+ <link href="https://xiaojudou.github.io/"/>
+ <updated>2018-11-13T15:15:58+08:00</updated>
+ <id>https://xiaojudou.github.io/</id>
+ <author>
+   <name>xiaojudou</name>
+   <email>xiaojudou@gmail.com</email>
+ </author>
+
+ 
+
+</feed>
