@@ -1,2 +1,2 @@
-Theme copied from 
-http://github.com/mojombo/jekyll 
+Theme copied from
+https://github.com/mojombo/jekyll 

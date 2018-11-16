@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
  <title>xiaojudou</title>
  <link href="https://xiaojudou.github.io/atom.xml" rel="self"/>
@@ -11,6 +11,6 @@
    <email>xiaojudou@gmail.com</email>
  </author>
 
- 
+
 
 </feed>
