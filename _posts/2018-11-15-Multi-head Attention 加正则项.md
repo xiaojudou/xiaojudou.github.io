@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Multi-head Attention 加正则项"
+title: "Multi-head Attention 加正则项优化"
 description: "Test post for style"
 date: 2018-11-15
-tags: [test, style, attention]
+tags: [attention, EMNLP, 2018]
 comments: true
 share: true
-category: 单个分类
 ---
 测试
