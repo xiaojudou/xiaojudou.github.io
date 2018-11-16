@@ -23,23 +23,21 @@ Attention 机制的几个部分：
 
 第一种正则：让 document 的不同表示（H 个不同的 V）尽量正交。
 
-\[
-e^x
-\]
-
-$$e^x$$
-
 $
 D_{ \text {subpace} } = - \frac { 1 } { H ^ { 2 } } \sum_{ i = 1 } ^ { H } \sum_{ j = 1 } ^ { H } \frac { V ^ { i } \cdot V ^ { j } } { \left\| V ^ { i } \right\| \left\| V ^ { j } \right\| }
 $
 
 第二种正则：希望 attention 注意的位置不同。
 
+$
 D_{ \text {position} } = - \frac { 1 } { H ^ { 2 } } \sum_{ i = 1 } ^ { H } \sum_{ j = 1 } ^ { H } \left| A ^ { i } \odot A ^ { j } \right|
+$
 
 第三种正则：让 output 尽量正交，这样可以表示不想关的含义。
 
+$
 D_{ \text {output} } = - \frac { 1 } { H ^ { 2 } } \sum_{ i = 1 } ^ { H } \sum_{ j = 1 } ^ { H } \frac { O ^ { i } \cdot O ^ { j } } { \left\| O ^ { i } \right\| \left\| O ^ { j } \right\| }
+$
 
 最后的结果比 《attention is all you need》在英德翻译等上面好了很多。
 
