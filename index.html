@@ -4,21 +4,25 @@ title: FunNLP
 ---
 
 <div id="home">
-  <h1>In Learning</h1>
+  <h1>RL</h1>
   <ul class="posts">
     <li><a href="https://spinningup.openai.com/en/latest/index.html">Spinning Up:</a> An OpenAI Deep RL cources.</li>
     <li><a href="http://rail.eecs.berkeley.edu/deeprlcourse/">CS 294-112 at UC Berkeley:</a> Deep Reinforcement Learning.</li>
     <li><a href="https://drive.google.com/file/d/1opPSz5AZ_kVa1uWOdOiveNiBFiEOHjkG/view">Text book:</a> Reinforcement Learning an Introduction. 2nd edithion by Richard S.Sutton & Andrew G.Barto</li>
   </ul>
 
-  <h1>Fun</h1>
+  <h1>GANs</h1>
   <ul class="posts">
-    <li><a href="http://nlpprogress.com/">nlpprogress:</a> the datasets and the current state-of-the-art for the most common NLP tasks.</li>
-    <li><a href="https://competitions.codalab.org/competitions/19938#learn_the_details">RumourEval 2019:</a> automatically determine the veracity of rumours.</li>
     <li><a href="http://www.sigai.cn/upload/files/20181120/1542679802314784.pdf">SIGAI GANs 综述</a></li>
   </ul>
 
-  <h1>Paper</h1>
+  <h1>Other</h1>
+  <ul class="posts">
+    <li><a href="http://nlpprogress.com/">nlpprogress:</a> the datasets and the current state-of-the-art for the most common NLP tasks.</li>
+    <li><a href="https://competitions.codalab.org/competitions/19938#learn_the_details">RumourEval 2019:</a> automatically determine the veracity of rumours.</li>
+  </ul>
+
+  <h1>Post</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
